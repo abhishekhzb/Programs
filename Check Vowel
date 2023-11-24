@@ -16,9 +16,7 @@ public class CheckVowel {
   }
   
   private static boolean  checkVowel(char input){
-    if(input == 'a' || input == 'e' || input == 'i' || input == 'o' || input == 'u'
-    // || input == 'A' || input == 'E' || input == 'I' || input == 'O' || input == 'U'
-    ){
+    if(input == 'a' || input == 'e' || input == 'i' || input == 'o' || input == 'u'){
       return true;
     }else{
       return false;
