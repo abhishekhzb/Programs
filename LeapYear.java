@@ -1,6 +1,6 @@
 import java.util.*;
 
-// Addition of Two Number
+// Find Leap year or not
 
 public class LepaYear {
     public static void main(String[] args) {
