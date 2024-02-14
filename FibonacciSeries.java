@@ -1,27 +1,27 @@
 import java.util.*;
 
-public class FibonacciSeries {
+public class FibinacciSeries {
     public static void main(String[] args) {
-    
-    int number = 50;
-    int a = 1;
-    int b = 1;
-    int f = 0;
-    
-    System.out.println(""+a);
-    System.out.println(""+b);
-    
-    while(f<=number){
-      f = a+b;
-      
-      if(f>number)
-        break;
-      
-      System.out.println(""+f);
-      a = b;
-      b = f;
-      
+     printFibonacci(10);
     }
- 
-  }
+    
+    public static void printFibonacci(int num){
+      
+      int a = 0;
+      int b = 1;
+      int c = 1;
+      
+      System.out.println(a);
+      System.out.println(b);
+      System.out.println(c);
+      
+      for(int i=1;i<=num-3;i++){
+        
+        a=b;
+        b=c;
+        c=a+b;
+        
+        System.out.println(c);
+      }
+    } 
 }
