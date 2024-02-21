@@ -39,7 +39,7 @@ public class Anagrams_HashMap {
        }
     }
     
-    return Arrays.equals(s2Arr,s2Arr);
+    return Arrays.equals(s1Arr,s2Arr);
    
   }
   
